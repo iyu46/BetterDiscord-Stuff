@@ -156,6 +156,7 @@
     display: none !important;
 } */
 
+/* fix mentions colour */
 .groupStart__56db5.mentioned__58017 .contents_f41bb2,
 .mentioned__58017:not(.groupStart__56db5) .contents_f41bb2 > .markup_a7e664:not(:empty, .searchResultsWrap__9f374 *) {
     background-color: #005c8477;
@@ -165,7 +166,31 @@
     background-color: #00c6ab;
 }
 
+/* fix colour of bubble on left side of mentioned message */
 .item_f9d377 {
     background-color: var(--header-primary);
 }
 
+/* fix voice connected spacing */
+.statusWithPopout__456ad {
+    padding: 0px 0px !important;
+}
+
+.button_afdfd9:not(.toolbar_c7b525 button, .wrapper__3f3a7 button) {
+    font-weight: 600;
+}
+
+/* fix footer of popout modals */
+
+.footer__89240 {
+    background-color: var(--04dp);
+}
+
+/* fixed in actual file
+.root_a28985:not(.modal_d2e7a7, .root-2uUafN) > div:not(.topSection-13QKHs) {
+    border-radius: 0px 0px 20px 20px;
+} */
+
+.container__871ba.checked__6bdb0 {
+    background-color: rgb(17 181 86) !important;
+}

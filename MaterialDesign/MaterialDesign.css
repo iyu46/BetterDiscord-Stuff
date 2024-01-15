@@ -783,7 +783,7 @@ button.colorRed-rQXKgM:not(.footer-31IekZ .button_afdfd9, .lookFilled-yCfaCM):ho
 }
 
 .root_a28985 {
-    border-radius: 28px;
+    /* border-radius: 28px; */
     background-color: var(--background-primary) !important;
 }
 
@@ -810,8 +810,8 @@ button.colorRed-rQXKgM:not(.footer-31IekZ .button_afdfd9, .lookFilled-yCfaCM):ho
 }
 
 .root_a28985:not(.modal_d2e7a7, .root-2uUafN) > div:not(.topSection-13QKHs) {
-    padding-inline: 36px;
-    border-radius: 20px 20px 0 0;
+    /* padding-inline: 36px; */
+    border-radius: 0px 0px 20px 20px;
 }
 
 .nameTagWithCustomStatus-5c-v3- {
