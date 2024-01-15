@@ -18,10 +18,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Source Code Pro:wght@550&display=swap");
 
 /* Source */
-@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/MaterialDesign/Clients/betterdiscord.css");
+/* @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/MaterialDesign/Clients/betterdiscord.css"); */
+
+@import url("https://iyu46.github.io/BetterDiscord-Stuff/MaterialDesign/MaterialDesign.css");
+@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/MaterialDesign/Modules/Clients/BetterDiscord.css");
+
+@import url("https://davart154.github.io/Themes/Icon%20Revert%202023/2023%20Icon%20Revert.css");
 
 :root {
-    --font-primary: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* --font-primary: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; */
     --font-code: "Source Code Pro";
     --01dpShadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
     --02dpShadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
@@ -84,13 +89,13 @@
     --skin-name: "Default";
     --skin-author: "TheCommieAxolotl";
 
-    --skin-accent-h: 264;
-    --skin-accent-s: 84%;
-    --skin-accent-l: 100;
+    --skin-accent-h: 172;
+    --skin-accent-s: 100%;
+    --skin-accent-l: 50;
     --skin-accent-a: 100;
 
-    --skin-background-h: 0;
-    --skin-background-s: 0%;
+    --skin-background-h: 212;
+    --skin-background-s: 50%;
     --skin-background-l: 100;
     --skin-background-a: 100;
 
@@ -146,3 +151,21 @@
 }
 
 /* Made By The Commie Axolotl */
+
+/* .wrapper__7bcde::before {
+    display: none !important;
+} */
+
+.groupStart__56db5.mentioned__58017 .contents_f41bb2,
+.mentioned__58017:not(.groupStart__56db5) .contents_f41bb2 > .markup_a7e664:not(:empty, .searchResultsWrap__9f374 *) {
+    background-color: #005c8477;
+}
+
+.mentioned__58017:before {
+    background-color: #00c6ab;
+}
+
+.item_f9d377 {
+    background-color: var(--header-primary);
+}
+
