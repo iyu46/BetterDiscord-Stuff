@@ -194,3 +194,8 @@
 .container__871ba.checked__6bdb0 {
     background-color: rgb(17 181 86) !important;
 }
+
+/* fix images not being tall enough */
+.oneByOneGrid__02495 {
+    max-height: fit-content;
+}
