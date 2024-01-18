@@ -199,3 +199,12 @@
 .oneByOneGrid__02495 {
     max-height: fit-content;
 }
+
+/* fix voicecall element alignment */
+.quickSelect_ae48d2 {
+    padding-top: 8px;
+}
+
+.voiceCallWrapper_a36a80 {
+    padding-bottom: 0px;
+}

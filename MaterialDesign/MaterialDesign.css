@@ -251,7 +251,7 @@ code {
 }
 
 .role__631a3 {
-    background: var(--04dp);
+    /* background: var(--04dp); */
     border-radius: 50px;
     padding: 8px 9px;
     transition: all 0.2s ease;
