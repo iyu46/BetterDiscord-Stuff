@@ -152,17 +152,17 @@
 
 /* Made By The Commie Axolotl */
 
-/* .wrapper__7bcde::before {
+/* .wrapper__612a5::before {
     display: none !important;
 } */
 
 /* fix mentions colour */
-.groupStart__56db5.mentioned__58017 .contents_f41bb2,
-.mentioned__58017:not(.groupStart__56db5) .contents_f41bb2 > .markup_a7e664:not(:empty, .searchResultsWrap__9f374 *) {
+.groupStart__7b93c.mentioned_fa6fd2 .contents_d3ae0d,
+.mentioned_fa6fd2:not(.groupStart__7b93c) .contents_d3ae0d > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *) {
     background-color: #005c8477;
 }
 
-.mentioned__58017:before {
+.mentioned_fa6fd2:before {
     background-color: #00c6ab;
 }
 
@@ -172,17 +172,17 @@
 }
 
 /* fix voice connected spacing */
-.statusWithPopout__456ad {
+.statusWithPopout__3aad9 {
     padding: 0px 0px !important;
 }
 
-.button_afdfd9:not(.toolbar_c7b525 button, .wrapper__3f3a7 button) {
+.button__581d0:not(.toolbar__894c6 button, .wrapper__4d4fe button) {
     font-weight: 600;
 }
 
 /* fix footer of popout modals */
 
-.footer__89240 {
+.footer_e0b400 {
     background-color: var(--04dp);
 }
 
@@ -191,20 +191,48 @@
     border-radius: 0px 0px 20px 20px;
 } */
 
-.container__871ba.checked__6bdb0 {
+.container__2ed72.checked__36fdc {
     background-color: rgb(17 181 86) !important;
 }
 
 /* fix images not being tall enough */
-.oneByOneGrid__02495 {
+.oneByOneGrid__36e03 {
     max-height: fit-content;
 }
 
+.messageAttachment__5dae1 {
+    height: auto;
+}
+
 /* fix voicecall element alignment */
-.quickSelect_ae48d2 {
+.quickSelect__540d0 {
     padding-top: 8px;
 }
 
-.voiceCallWrapper_a36a80 {
+.voiceCallWrapper__6ca32 {
     padding-bottom: 0px;
+}
+
+.emojiButtonContainer__58b36 {
+    margin: 0;
+}
+
+/* remove profile nitro gift button */
+.giftButtonContainer__68103 {
+    display: none;
+}
+
+/* fix spotify play along button */
+.contents__322f4 {
+    overflow: visible !important;
+}
+
+.listenAlongIcon_e364e3 {
+    width: 20px;
+    height: 20px;
+}
+
+/* fix avatar decoration misalignment */
+.avatarDecoration__8a0c2 {
+    left: -59px;
 }
