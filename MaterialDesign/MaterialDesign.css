@@ -380,7 +380,7 @@ button.lookFilled-yCfaCM {
     background: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.22% * var(--skin-background-l, 0)), calc(1% * var(--floating-background-opacity, 100)));
 } */
 
-.container_eedf95::after,
+/* .container_eedf95::after,
 .menu_d90b3d::after,
 .tooltip-14MtrL::after,
 .userPopout-2j1gM4::after {
@@ -392,7 +392,7 @@ button.lookFilled-yCfaCM {
     height: 100%;
     z-index: -1;
     backdrop-filter: blur(var(--floating-background-blur, 0px));
-}
+} */
 
 .submenuContainer-3EVTeH .submenuContainer-3EVTeH .layer-2aCOJ3 {
     left: 98% !important;

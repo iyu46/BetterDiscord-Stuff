@@ -23,8 +23,6 @@
 @import url("https://iyu46.github.io/BetterDiscord-Stuff/MaterialDesign/MaterialDesign.css");
 @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/MaterialDesign/Modules/Clients/BetterDiscord.css");
 
-@import url("https://davart154.github.io/Themes/Icon%20Revert%202023/2023%20Icon%20Revert.css");
-
 :root {
     /* --font-primary: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; */
     --font-code: "Source Code Pro";
@@ -136,6 +134,11 @@
     --switch-unchecked-color: #74796e;
 }
 
+/* fix link and voice text colouring while Aurora themed */
+.custom-theme-background {
+    --theme-text-color-amount: 0%;
+}
+
 .theme-light {
     --skin-name: "Default Light";
     --skin-author: "TheCommieAxolotl";
@@ -152,51 +155,51 @@
 
 /* Made By The Commie Axolotl */
 
-/* .wrapper__612a5::before {
+/* .wrapper_d8bfb3::before {
     display: none !important;
 } */
 
 /* fix mentions colour */
-.groupStart__7b93c.mentioned_fa6fd2 .contents_d3ae0d,
-.mentioned_fa6fd2:not(.groupStart__7b93c) .contents_d3ae0d > .markup_a7e664:not(:empty, .searchResultsWrap__2e184 *) {
+.groupStart_d5deea.mentioned_d5deea .contents_ec86aa,
+.mentioned_d5deea:not(.groupStart_d5deea) .contents_ec86aa > .markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
     background-color: #005c8477;
 }
 
-.mentioned_fa6fd2:before {
+.mentioned_d5deea:before {
     background-color: #00c6ab;
 }
 
 /* fix colour of bubble on left side of mentioned message */
-.item_f9d377 {
+.item_fd07a3 {
     background-color: var(--header-primary);
 }
 
 /* fix voice connected spacing */
-.statusWithPopout__3aad9 {
+.statusWithPopout_adcaac {
     padding: 0px 0px !important;
 }
 
-.button__581d0:not(.toolbar__894c6 button, .wrapper__4d4fe button) {
+.button_dd4f85:not(.toolbar_de3e42 button, .wrapper_b6e2f9 button) {
     font-weight: 600;
 }
 
 /* fix footer of popout modals */
 
-.footer_e0b400 {
+.footer_f9a4c9 {
     background-color: var(--04dp);
 }
 
 /* fixed in actual file
-.root_a28985:not(.modal_d2e7a7, .root-2uUafN) > div:not(.topSection-13QKHs) {
+.root_f9a4c9:not(.modal_aee8c6, .root-2uUafN) > div:not(.topSection-13QKHs) {
     border-radius: 0px 0px 20px 20px;
 } */
 
-.container__2ed72.checked__36fdc {
+.container_cebd1c.checked_cebd1c {
     background-color: rgb(17 181 86) !important;
 }
 
 /* fix images not being tall enough */
-.oneByOneGrid__36e03 {
+.oneByOneGrid_df7417 {
     max-height: fit-content;
 }
 
@@ -209,11 +212,11 @@
     padding-top: 8px;
 }
 
-.voiceCallWrapper__6ca32 {
+.voiceCallWrapper_bae578 {
     padding-bottom: 0px;
 }
 
-.emojiButtonContainer__58b36 {
+.emojiButtonContainer_d5bea8 {
     margin: 0;
 }
 
@@ -223,7 +226,7 @@
 }
 
 /* fix spotify play along button */
-.contents__322f4 {
+.contents_dd4f85 {
     overflow: visible !important;
 }
 
@@ -233,6 +236,12 @@
 }
 
 /* fix avatar decoration misalignment */
-.avatarDecoration__8a0c2 {
+.avatarDecoration_ec86aa {
     left: -59px;
+}
+
+/* fix big image modals */
+.carouselModal_d2b9a1 {
+    width: auto;
+    height: auto;
 }
