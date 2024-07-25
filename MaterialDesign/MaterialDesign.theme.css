@@ -160,8 +160,8 @@
 } */
 
 /* fix mentions colour */
-.groupStart_d5deea.mentioned_d5deea .contents_ec86aa,
-.mentioned_d5deea:not(.groupStart_d5deea) .contents_ec86aa > .markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
+.groupStart_d5deea.mentioned_d5deea .contents_f9f2ca,
+.mentioned_d5deea:not(.groupStart_d5deea) .contents_f9f2ca > .markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) {
     background-color: #005c8477;
 }
 
@@ -170,7 +170,7 @@
 }
 
 /* fix colour of bubble on left side of mentioned message */
-.item_fd07a3 {
+.item_c4cd66 {
     background-color: var(--header-primary);
 }
 
@@ -199,7 +199,7 @@
 }
 
 /* fix images not being tall enough */
-.oneByOneGrid_df7417 {
+.oneByOneGrid_cda674 {
     max-height: fit-content;
 }
 
@@ -236,7 +236,7 @@
 }
 
 /* fix avatar decoration misalignment */
-.avatarDecoration_ec86aa {
+.avatarDecoration_f9f2ca {
     left: -59px;
 }
 
