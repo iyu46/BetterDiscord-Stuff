@@ -691,7 +691,7 @@ pre code {
 **/
 
 .button_dd4f85:not(.toolbar_de3e42 button, .wrapper_b6e2f9 button) {
-    padding: 6px 12px;
+    padding: 0px;
     border-radius: 50px;
     font-weight: 500;
     transition: all 0.2s ease;
