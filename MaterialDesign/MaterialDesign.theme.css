@@ -155,22 +155,22 @@
 
 /* Made By The Commie Axolotl */
 
-/* .wrapper_d8bfb3::before {
+/* .wrapper__2ea32::before {
     display: none !important;
 } */
 
 /* fix mentions colour */
-.groupStart_d5deea.mentioned_d5deea .contents_f9f2ca,
-.mentioned_d5deea:not(.groupStart_d5deea) .contents_f9f2ca > .markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) {
+.groupStart__5126c.mentioned__5126c .contents_c19a55,
+.mentioned__5126c:not(.groupStart__5126c) .contents_c19a55 > .markup__75297:not(:empty, .searchResultsWrap_a9e706 *) {
     background-color: #005c8477;
 }
 
-.mentioned_d5deea:before {
+.mentioned__5126c:before {
     background-color: #00c6ab;
 }
 
 /* fix colour of bubble on left side of mentioned message */
-.item_c4cd66 {
+.item__58105 {
     background-color: var(--header-primary);
 }
 
@@ -179,27 +179,27 @@
     padding: 0px 0px !important;
 }
 
-.button_dd4f85:not(.toolbar_de3e42 button, .wrapper_b6e2f9 button) {
+.button__201d5:not(.toolbar_bba883 button, .wrapper__1405b button) {
     font-weight: 600;
 }
 
 /* fix footer of popout modals */
 
-.footer_f9a4c9 {
+.footer__49fc1 {
     background-color: var(--04dp);
 }
 
 /* fixed in actual file
-.root_f9a4c9:not(.modal_aee8c6, .root-2uUafN) > div:not(.topSection-13QKHs) {
+.root__49fc1:not(.modal_b0827a, .root-2uUafN) > div:not(.topSection-13QKHs) {
     border-radius: 0px 0px 20px 20px;
 } */
 
-.container_cebd1c.checked_cebd1c {
+.container__87bf1.checked__87bf1 {
     background-color: rgb(17 181 86) !important;
 }
 
 /* fix images not being tall enough */
-.oneByOneGrid_cda674 {
+.oneByOneGrid_f4758a {
     max-height: fit-content;
 }
 
@@ -212,11 +212,11 @@
     padding-top: 8px;
 }
 
-.voiceCallWrapper_bae578 {
+.voiceCallWrapper_a21736 {
     padding-bottom: 0px;
 }
 
-.emojiButtonContainer_d5bea8 {
+.emojiButtonContainer__9b8f6 {
     margin: 0;
 }
 
@@ -226,7 +226,7 @@
 }
 
 /* fix spotify play along button */
-.contents_dd4f85 {
+.contents__201d5 {
     overflow: visible !important;
 }
 
@@ -236,7 +236,7 @@
 }
 
 /* fix avatar decoration misalignment */
-.avatarDecoration_f9f2ca {
+.avatarDecoration_c19a55 {
     left: -59px;
 }
 
@@ -244,4 +244,32 @@
 .carouselModal_d2b9a1 {
     width: auto;
     height: auto;
+}
+
+/* remove dumbass ai app button */
+.channelAppLauncher_e6e74f {
+    display: none;
+}
+
+/* remove activities button */
+.buttonContainer__1405b {
+    display: none;
+}
+
+.hoverButtonGroup__06ab4 {
+    display: none;
+}
+
+/* remove nitro gift button */
+[aria-label="Send a gift"] {
+    display: none;
+}
+
+/* remove play again activity header */
+.headerContainer__675e5 {
+    display: none;
+}
+
+.container__675e5 {
+    display: none;
 }
