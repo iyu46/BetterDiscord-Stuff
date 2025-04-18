@@ -251,6 +251,10 @@
     display: none;
 }
 
+.visual-refresh .channelAppLauncher_e6e74f {
+    display: none;
+}
+
 /* remove activities button */
 .buttonContainer__1405b {
     display: none;
@@ -273,3 +277,10 @@
 .container__675e5 {
     display: none;
 }
+
+/* remove support icon */
+.anchor_edefb8 {
+    display: none;
+}
+
+
