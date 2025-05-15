@@ -83,7 +83,7 @@
     --brand-experiment-95a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(0.75% * var(--skin-accent-l, 100)), calc(0.0095 * var(--skin-accent-a, 100)));
 }
 
-.theme-dark {
+.theme-dark, .visual-refresh .theme-dark, .visual-refresh.theme-dark {
     --skin-name: "Default";
     --skin-author: "TheCommieAxolotl";
 
@@ -132,6 +132,7 @@
     --switch-checked-background: hsl(101, calc(var(--saturation-factor) * 54%), 27%);
     --switch-unchecked-background: #74796e33;
     --switch-unchecked-color: #74796e;
+    --text-link: #3693ff;
 }
 
 /* fix link and voice text colouring while Aurora themed */
@@ -277,10 +278,3 @@
 .container__675e5 {
     display: none;
 }
-
-/* remove support icon */
-.anchor_edefb8 {
-    display: none;
-}
-
-
