@@ -299,8 +299,8 @@ code {
     box-shadow: var(--04dpShadow);
 }
 
-.expandedFolderBackground__48112,
-.closedFolderIconWrapper__48112,
+.folderGroupBackground__48112,
+.folderPreview__48112,
 .wrapper__8436d {
     box-shadow: var(--04dpShadow);
 }
