@@ -195,7 +195,7 @@
     border-radius: 0px 0px 20px 20px;
 } */
 
-.container__87bf1.checked__87bf1 {
+.container__6f89e.checked__6f89e {
     background-color: rgb(17 181 86) !important;
 }
 
@@ -280,18 +280,33 @@
 }
 
 /* amend status indicator colours */
-rect[mask="url(#svg-mask-status-idle)"] {
+rect[mask="url(#svg-mask-status-idle)"], rect[fill="#ca9654"] {
     fill: rgb(240, 178, 50) !important;
 }
 
-rect[mask="url(#svg-mask-status-online)"] {
+rect[mask="url(#svg-mask-status-online)"], rect[mask="url(#svg-mask-status-online-mobile)"], rect[fill="#43a25a"] {
     fill: #23a55a !important;
 }
 
-rect[mask="url(#svg-mask-status-dnd)"] {
+rect[mask="url(#svg-mask-status-dnd)"], rect[fill="#d83a42"] {
     fill: #f23f43 !important;
 }
 
-rect[mask="url(#svg-mask-status-offline)"] {
+rect[mask="url(#svg-mask-status-offline)"], rect[fill="#82838b"] {
     fill: #80848e !important;
+}
+
+/* remove nitro gift button */
+[aria-label="Help"] {
+    display: none;
+}
+
+/* fix jump to button */
+.barButtonMain__0f481 {
+    position: inherit
+}
+
+/* remove create dm message */
+[aria-label="Create DM"] {
+    display: none;
 }

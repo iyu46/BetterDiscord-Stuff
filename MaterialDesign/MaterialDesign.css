@@ -201,31 +201,31 @@ code {
     Switches.
 **/
 
-.container__87bf1 {
+.container__6f89e {
     border-radius: 50px;
     border: 3px solid transparent;
     box-sizing: content-box;
     transition: all 0.4s ease;
 }
 
-.container__87bf1:not(.checked__87bf1) {
+.container__6f89e:not(.checked__6f89e) {
     background-color: var(--switch-unchecked-background) !important;
     border-color: var(--switch-unchecked-color);
 }
 
-.container__87bf1:not(.checked__87bf1) svg > rect {
+.container__6f89e:not(.checked__6f89e) svg > rect {
     fill: var(--switch-unchecked-color);
 }
 
-.container__87bf1.checked__87bf1 {
+.container__6f89e.checked__6f89e {
     background-color: var(--switch-checked-background) !important;
 }
 
-.container__87bf1.checked__87bf1 .slider__87bf1 {
+.container__6f89e.checked__6f89e .slider__6f89e {
     left: 15px !important;
 }
 
-.slider__87bf1 {
+.slider__6f89e {
     margin: 4.5px;
     transition: left 0.2s ease;
     width: 20px;
@@ -233,11 +233,11 @@ code {
     top: -1px;
 }
 
-.container__87bf1.checked__87bf1 .slider__87bf1 > svg > path {
+.container__6f89e.checked__6f89e .slider__6f89e > svg > path {
     fill: black !important;
 }
 
-.container__87bf1 {
+.container__6f89e {
     width: 40px;
     height: 20px;
 }
