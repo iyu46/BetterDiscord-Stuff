@@ -195,7 +195,7 @@
     border-radius: 0px 0px 20px 20px;
 } */
 
-.container__6f89e.checked__6f89e {
+.container__3f21e.checked__3f21e {
     background-color: rgb(17 181 86) !important;
 }
 
@@ -309,4 +309,64 @@ rect[mask="url(#svg-mask-status-offline)"], rect[fill="#82838b"] {
 /* remove create dm message */
 [aria-label="Create DM"] {
     display: none;
+}
+
+/* move indicator back under chatbar */
+.align-chat-input .scrollerSpacer__36d07 {
+    height: 30px;
+}
+
+.align-chat-input .form_f75fb0 {
+    margin-bottom: 16px;
+}
+
+.typing_b88801 {
+    margin-top: -9px;
+}
+
+.align-chat-input .inTextChannel_b88801.base_b88801 {
+    top: inherit;
+}
+
+.align-chat-input .inTextChannel_b88801 .text_b88801 {
+    margin-left: inherit;
+}
+
+.chatTypingGradientNotAtBottom__36d07 {
+    display: none;
+}
+
+/* fix channel scroller */
+.scroller__629e4 {
+    margin-bottom: 24px;
+}
+
+/* gallery layout */
+.carouselModal_d3a6f0 {
+    background-color: transparent !important;
+}
+
+.lightbox_d9cec8 {
+    background-color: #000000b5 !important;
+}
+
+.topBar__6088c {
+    grid-row: 2 !important;
+    grid-template-columns: unset !important;
+    grid-template-rows: unset !important;
+    align-items: end !important;
+    place-self: unset;
+}
+
+.authorAvatar__6088c {
+    margin-right: 8px;
+}
+
+.closeButton__6088c {
+    margin-left: 8px;
+}
+
+/* adjust user tray area */
+.panels_c48ade {
+    margin: 0px !important;
 }
