@@ -312,11 +312,11 @@ rect[mask="url(#svg-mask-status-offline)"], rect[fill="#82838b"] {
 }
 
 /* move indicator back under chatbar */
-.align-chat-input .scrollerSpacer__36d07 {
+.scrollerSpacer__36d07 {
     height: 30px;
 }
 
-.align-chat-input .form_f75fb0 {
+.form_f75fb0 {
     margin-bottom: 16px;
 }
 
@@ -324,11 +324,11 @@ rect[mask="url(#svg-mask-status-offline)"], rect[fill="#82838b"] {
     margin-top: -9px;
 }
 
-.align-chat-input .inTextChannel_b88801.base_b88801 {
+ .inTextChannel_b88801.base_b88801 {
     top: inherit;
 }
 
-.align-chat-input .inTextChannel_b88801 .text_b88801 {
+.inTextChannel_b88801 .text_b88801 {
     margin-left: inherit;
 }
 
@@ -346,7 +346,7 @@ rect[mask="url(#svg-mask-status-offline)"], rect[fill="#82838b"] {
     background-color: transparent !important;
 }
 
-.lightbox_d9cec8 {
+.lightbox__40128 {
     background-color: #000000b5 !important;
 }
 
@@ -369,4 +369,9 @@ rect[mask="url(#svg-mask-status-offline)"], rect[fill="#82838b"] {
 /* adjust user tray area */
 .panels_c48ade {
     margin: 0px !important;
+}
+
+/* set active voice channel icon back to gray bc the green is fucking ugly */
+.iconLive_c69b6d {
+    color: var(--channel-icon);
 }
