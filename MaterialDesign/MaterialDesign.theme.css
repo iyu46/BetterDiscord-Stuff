@@ -257,7 +257,7 @@
 }
 
 /* remove activities button */
-.buttonContainer__1405b {
+.buttonContainer_e6e74f {
     display: none;
 }
 
@@ -266,7 +266,7 @@
 }
 
 /* remove nitro gift button */
-[aria-label="Send a gift"] {
+[aria-label="Give a Gift"] {
     display: none;
 }
 
@@ -299,11 +299,6 @@ rect[mask="url(#svg-mask-status-offline)"], rect[fill="#82838b"] {
 /* remove nitro gift button */
 [aria-label="Help"] {
     display: none;
-}
-
-/* fix jump to button */
-.barButtonMain__0f481 {
-    position: inherit
 }
 
 /* remove create dm message */
@@ -341,6 +336,10 @@ rect[mask="url(#svg-mask-status-offline)"], rect[fill="#82838b"] {
     margin-bottom: 24px;
 }
 
+.scroller__99e7c {
+    margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs));
+}
+
 /* gallery layout */
 .carouselModal_d3a6f0 {
     background-color: transparent !important;
@@ -367,11 +366,16 @@ rect[mask="url(#svg-mask-status-offline)"], rect[fill="#82838b"] {
 }
 
 /* adjust user tray area */
-.panels_c48ade {
+.panels__5e434 {
     margin: 0px !important;
 }
 
 /* set active voice channel icon back to gray bc the green is fucking ugly */
 .iconLive_c69b6d {
-    color: var(--channel-icon);
+    color: var(--channel-icon) !important;
+}
+
+/* fix jump to new messages button */
+.jumpToPresentBar__0f481 {
+    display: unset !important;
 }

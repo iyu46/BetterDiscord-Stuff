@@ -177,7 +177,7 @@ code {
     overflow: hidden;
 }
 
-.container_fcf29c {
+.container__9a9f9 {
     background: var(--background-floating) !important;
     padding: 14px 16px;
     font-size: 0.875rem;
@@ -189,11 +189,11 @@ code {
     overflow: hidden;
 }
 
-.container_fcf29c.elevationHigh__08882 button.lookFilled-yCfaCM {
+.container__9a9f9.elevationHigh__08882 button.lookFilled-yCfaCM {
     background: var(--brand-experiment-560) !important;
 }
 
-.container_fcf29c .message_fcf29c {
+.container__9a9f9 .message__9a9f9 {
     font-weight: 400;
 }
 
@@ -270,12 +270,12 @@ code {
     margin-block: 3px;
 }
 
-.panels_c48ade {
+.panels__5e434 {
     border-radius: 4px;
     margin: 0 7px 7px 7px;
 }
 
-.platform-osx .base_c48ade {
+.platform-osx .base__5e434 {
     margin-top: 20px;
     border-radius: 4px 0 0 0;
 }
@@ -305,7 +305,7 @@ code {
     box-shadow: var(--04dpShadow);
 }
 
-.panels_c48ade,
+.panels__5e434,
 .title_f75fb0 {
     box-shadow: var(--04dpShadow);
 }
@@ -753,7 +753,7 @@ button.colorRed-rQXKgM:not(.footer-31IekZ .button__201d5, .lookFilled-yCfaCM):ho
     margin-right: 5px;
 }
 
-.panels_c48ade .button__67645 {
+.panels__5e434 .button__67645 {
     padding: 0 !important;
 }
 
