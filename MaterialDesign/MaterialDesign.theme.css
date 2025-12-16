@@ -172,7 +172,7 @@
 
 /* fix colour of bubble on left side of mentioned message */
 .item__58105 {
-    background-color: var(--header-primary);
+    background-color: var(--text-strong);
 }
 
 /* fix voice connected spacing */
@@ -257,7 +257,11 @@
 }
 
 /* remove activities button */
-.buttonContainer_e6e74f {
+.buttonContainer__1405b {
+    display: none;
+}
+
+.app-launcher-entrypoint {
     display: none;
 }
 
@@ -267,6 +271,10 @@
 
 /* remove nitro gift button */
 [aria-label="Give a Gift"] {
+    display: none;
+}
+
+[aria-label="Send a gift"] {
     display: none;
 }
 
