@@ -156,22 +156,22 @@
 
 /* Made By The Commie Axolotl */
 
-/* .wrapper__2ea32::before {
+/* ._2ea32c412048f708-wrapper::before {
     display: none !important;
 } */
 
 /* fix mentions colour */
-.groupStart__5126c.mentioned__5126c .contents_c19a55,
-.mentioned__5126c:not(.groupStart__5126c) .contents_c19a55 > .markup__75297:not(:empty, .searchResultsWrap_a9e706 *) {
+._5126c0cd07f243a0-groupStart._5126c0cd07f243a0-mentioned .c19a557985eb7793-contents,
+._5126c0cd07f243a0-mentioned:not(._5126c0cd07f243a0-groupStart) .c19a557985eb7793-contents > ._752971923a1e6683-markup:not(:empty, .a9e7064fdee8e9b0-searchResultsWrap *) {
     background-color: #005c8477;
 }
 
-.mentioned__5126c:before {
+._5126c0cd07f243a0-mentioned:before {
     background-color: #00c6ab;
 }
 
 /* fix colour of bubble on left side of mentioned message */
-.item__58105 {
+._581051df43c5ebb6-item {
     background-color: var(--text-strong);
 }
 
@@ -180,27 +180,27 @@
     padding: 0px 0px !important;
 }
 
-.button__201d5:not(.toolbar_bba883 button, .wrapper__1405b button) {
+._201d5e8a3c09670a-button:not(.bba88350df28dff1-toolbar button, ._1405b3b8e8eb5fd0-wrapper button) {
     font-weight: 600;
 }
 
 /* fix footer of popout modals */
 
-.footer__49fc1 {
+._49fc18ba07c5025f-footer {
     background-color: var(--04dp);
 }
 
 /* fixed in actual file
-.root__49fc1:not(.modal_b0827a, .root-2uUafN) > div:not(.topSection-13QKHs) {
+._49fc18ba07c5025f-root:not(.modal_b0827a, .root-2uUafN) > div:not(.topSection-13QKHs) {
     border-radius: 0px 0px 20px 20px;
 } */
 
-.container__3f21e.checked__3f21e {
+._3f21e80f8677ec40-container._3f21e80f8677ec40-checked {
     background-color: rgb(17 181 86) !important;
 }
 
 /* fix images not being tall enough */
-.oneByOneGrid_f4758a {
+.f4758a8d6346d18b-oneByOneGrid {
     max-height: fit-content;
 }
 
@@ -213,7 +213,7 @@
     padding-top: 8px;
 }
 
-.voiceCallWrapper_a21736 {
+.a21736575ea33af0-voiceCallWrapper {
     padding-bottom: 0px;
 }
 
@@ -227,7 +227,7 @@
 }
 
 /* fix spotify play along button */
-.contents__201d5 {
+._201d5e8a3c09670a-contents {
     overflow: visible !important;
 }
 
@@ -237,7 +237,7 @@
 }
 
 /* fix avatar decoration misalignment */
-.avatarDecoration_c19a55 {
+.c19a557985eb7793-avatarDecoration {
     left: -59px;
 }
 
@@ -257,7 +257,7 @@
 }
 
 /* remove activities button */
-.buttonContainer__1405b {
+._1405b3b8e8eb5fd0-buttonContainer {
     display: none;
 }
 
@@ -265,7 +265,7 @@
     display: none;
 }
 
-.hoverButtonGroup__06ab4 {
+._06ab41fd2ef7af3f-hoverButtonGroup {
     display: none;
 }
 
@@ -315,49 +315,49 @@ rect[mask="url(#svg-mask-status-offline)"], rect[fill="#82838b"] {
 }
 
 /* move indicator back under chatbar */
-.scrollerSpacer__36d07 {
+._36d072eab2b2e737-scrollerSpacer {
     height: 30px;
 }
 
-.form_f75fb0 {
+.f75fb00fb7356cbe-form {
     margin-bottom: 16px;
 }
 
-.typing_b88801 {
+.b8880176888cc928-typing {
     margin-top: -9px;
 }
 
- .inTextChannel_b88801.base_b88801 {
+ .b8880176888cc928-inTextChannel.b8880176888cc928-base {
     top: inherit;
 }
 
-.inTextChannel_b88801 .text_b88801 {
+.b8880176888cc928-inTextChannel .b8880176888cc928-text {
     margin-left: inherit;
 }
 
-.chatTypingGradientNotAtBottom__36d07 {
+._36d072eab2b2e737-chatTypingGradientNotAtBottom {
     display: none;
 }
 
 /* fix channel scroller */
-.scroller__629e4 {
+._629e4c86564a4ee7-scroller {
     margin-bottom: 24px;
 }
 
-.scroller__99e7c {
+._99e7cad8d4c55236-scroller {
     margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs));
 }
 
 /* gallery layout */
-.carouselModal_d3a6f0 {
+.d3a6f0de39ff36e9-carouselModal {
     background-color: transparent !important;
 }
 
-.lightbox__40128 {
+._40128e129e4f87de-lightbox {
     background-color: #000000b5 !important;
 }
 
-.topBar__6088c {
+._6088c3df6d10c76d-topBar {
     grid-row: 2 !important;
     grid-template-columns: unset !important;
     grid-template-rows: unset !important;
@@ -365,25 +365,25 @@ rect[mask="url(#svg-mask-status-offline)"], rect[fill="#82838b"] {
     place-self: unset;
 }
 
-.authorAvatar__6088c {
+._6088c3df6d10c76d-authorAvatar {
     margin-right: 8px;
 }
 
-.closeButton__6088c {
+._6088c3df6d10c76d-closeButton {
     margin-left: 8px;
 }
 
 /* adjust user tray area */
-.panels__5e434 {
+._5e434347c823b592-panels {
     margin: 0px !important;
 }
 
 /* set active voice channel icon back to gray bc the green is fucking ugly */
-.iconLive_c69b6d {
+.c69b6db0641110f6-iconLive {
     color: var(--channel-icon) !important;
 }
 
 /* fix jump to new messages button */
-.jumpToPresentBar__0f481 {
+._0f481cbbd7530492-jumpToPresentBar {
     display: unset !important;
 }
