@@ -383,7 +383,26 @@ rect[mask="url(#svg-mask-status-offline)"], rect[fill="#82838b"] {
     color: var(--channel-icon) !important;
 }
 
+._2ea32c412048f708-hoistingNotConnected ._2ea32c412048f708-name {
+    color: var(--channel-icon) !important;
+}
+
 /* fix jump to new messages button */
 ._0f481cbbd7530492-jumpToPresentBar {
     display: unset !important;
+}
+
+/* theme the game activity area */
+._5dec784a68542d60-panel {
+    background-color: var(--background-modifier-active);
+}
+
+/* remove voice chat border line stupid shit */
+.c69b6db0641110f6-voiceChannelHighlightBorder, .c69b6db0641110f6-voiceChannelHighlightGlow {
+    display: none !important;
+}
+
+/* fix modal colour */
+._8a031a135bfcb9ba-container {
+    background: var(--background-primary) !important;
 }
