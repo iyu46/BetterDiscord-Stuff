@@ -133,11 +133,78 @@
     --switch-unchecked-background: #74796e33;
     --switch-unchecked-color: #74796e;
     --text-link: #3693ff;
+    /* --chat-background-default: linear-gradient(rgb(var(--custom-background-gradient-chat-color)/var(--custom-background-gradient-opacity-chat)),rgb(var(--custom-background-gradient-chat-color)/var(--custom-background-gradient-opacity-chat))) var(--custom-background-gradient-cover); */
 }
 
 /* fix link and voice text colouring while Aurora themed */
-.custom-theme-background {
+/* .custom-theme-background {
     --theme-text-color-amount: 0%;
+    --custom-theme-background: linear-gradient(239.16deg, #062053 10.39%, #191fbb 26.87%, #13929a 48.31%, #218573 64.98%, #051a81 92.5%) !important;
+    --custom-theme-primary-color: #062053 !important;
+    --custom-theme-secondary-color: #051a81 !important;
+    --custom-theme-base-color-amount: 50% !important;
+    --custom-theme-base-color-dark: rgb(0,9,26) !important;
+    --custom-background-gradient-chat-color: 0 0 0 !important;
+    --custom-background-gradient-opacity-chat: 0.8 !important;
+    --custom-background-gradient-cover: fixed 0 0/cover,var(--custom-theme-background) fixed 0 0 /cover  !important;
+    --background-gradient-chat: linear-gradient(rgb(var(--custom-background-gradient-chat-color)/var(--custom-background-gradient-opacity-chat)),rgb(var(--custom-background-gradient-chat-color)/var(--custom-background-gradient-opacity-chat))) var(--custom-background-gradient-cover);
+}
+
+.custom-theme-background {
+    --custom-theme-background: linear-gradient(239.16deg, #062053 10.39%, #191fbb 26.87%, #13929a 48.31%, #218573 64.98%, #051a81 92.5%) !important;
+    --custom-theme-primary-color: #062053 !important;
+    --custom-theme-secondary-color: #051a81 !important;
+    --custom-theme-base-color-amount: 50% !important;
+    --custom-theme-base-color-dark: rgb(0,9,26) !important;
+    --custom-background-gradient-chat-color: 0 0 0 !important;
+    --custom-background-gradient-opacity-chat: 0.8 !important;
+    --custom-background-gradient-cover: fixed 0 0/cover,var(--custom-theme-background) fixed 0 0 /cover  !important;
+    --background-gradient-chat: linear-gradient(rgb(var(--custom-background-gradient-chat-color)/var(--custom-background-gradient-opacity-chat)),rgb(var(--custom-background-gradient-chat-color)/var(--custom-background-gradient-opacity-chat))) var(--custom-background-gradient-cover);
+}
+
+.theme-dark.custom-theme-background {
+    --custom-background-gradient-color: 0 0 0;
+    --custom-background-gradient-opacity-chat: 0.8;
+    --custom-background-gradient-highest-opacity: 0.65;
+    --custom-background-gradient-lowest-opacity: 0.9;
+    --custom-background-gradient-lower-opacity: 0.85;
+    --custom-background-gradient-low-opacity: 0.8;
+    --custom-background-gradient-high-opacity: 0.75;
+    --custom-background-gradient-higher-opacity: 0.7;
+    --custom-background-gradient-opacity-app-frame: var(--custom-background-gradient-higher-opacity);
+}
+
+.custom-theme-background {
+    --custom-background-gradient-lowest-color: var(--custom-background-gradient-color);
+    --custom-background-gradient-lower-color: var(--custom-background-gradient-color);
+    --custom-background-gradient-low-color: var(--custom-background-gradient-color);
+    --custom-background-gradient-high-color: var(--custom-background-gradient-color);
+    --custom-background-gradient-higher-color: var(--custom-background-gradient-color);
+    --custom-background-gradient-chat-color: var(--custom-background-gradient-color);
+    --custom-background-gradient-app-frame-color: var(--custom-background-gradient-color);
+    --custom-background-gradient-highest-color: var(--custom-background-gradient-color);
+    --custom-background-gradient-cover: fixed 0 0/cover,var(--custom-theme-background) fixed 0 0 /cover;
+    --background-gradient-lowest: linear-gradient(rgb(var(--custom-background-gradient-lowest-color)/var(--custom-background-gradient-lowest-opacity)),rgb(var(--custom-background-gradient-lowest-color)/var(--custom-background-gradient-lowest-opacity))) var(--custom-background-gradient-cover);
+    --background-gradient-lower: linear-gradient(rgb(var(--custom-background-gradient-lower-color)/var(--custom-background-gradient-lower-opacity)),rgb(var(--custom-background-gradient-lower-color)/var(--custom-background-gradient-lower-opacity))) var(--custom-background-gradient-cover);
+    --background-gradient-low: linear-gradient(rgb(var(--custom-background-gradient-low-color)/var(--custom-background-gradient-low-opacity)),rgb(var(--custom-background-gradient-low-color)/var(--custom-background-gradient-low-opacity))) var(--custom-background-gradient-cover);
+    --background-gradient-high: linear-gradient(rgb(var(--custom-background-gradient-high-color)/var(--custom-background-gradient-high-opacity)),rgb(var(--custom-background-gradient-high-color)/var(--custom-background-gradient-high-opacity))) var(--custom-background-gradient-cover);
+    --background-gradient-higher: linear-gradient(rgb(var(--custom-background-gradient-higher-color)/var(--custom-background-gradient-higher-opacity)),rgb(var(--custom-background-gradient-higher-color)/var(--custom-background-gradient-higher-opacity))) var(--custom-background-gradient-cover);
+    --background-gradient-chat: linear-gradient(rgb(var(--custom-background-gradient-chat-color)/var(--custom-background-gradient-opacity-chat)),rgb(var(--custom-background-gradient-chat-color)/var(--custom-background-gradient-opacity-chat))) var(--custom-background-gradient-cover);
+    --background-gradient-app-frame: linear-gradient(rgb(var(--custom-background-gradient-app-frame-color)/var(--custom-background-gradient-opacity-app-frame)),rgb(var(--custom-background-gradient-app-frame-color)/var(--custom-background-gradient-opacity-app-frame))) var(--custom-background-gradient-cover);
+    --background-gradient-highest: linear-gradient(rgb(var(--custom-background-gradient-highest-color)/var(--custom-background-gradient-highest-opacity)),rgb(var(--custom-background-gradient-highest-color)/var(--custom-background-gradient-highest-opacity))) var(--custom-background-gradient-cover);
+    --background-gradient-chat-preview: linear-gradient(rgb(var(--custom-background-gradient-chat-color)/var(--custom-background-gradient-opacity-chat)),rgb(var(--custom-background-gradient-chat-color)/var(--custom-background-gradient-opacity-chat))),var(--custom-theme-background);
+} */
+
+.theme-darker {
+    --app-frame-background: linear-gradient(239.16deg, #062053 10.39%, #191fbb 26.87%, #13929a 48.31%, #218573 64.98%, #051a81 92.5%) !important;
+    --background-base-low: #071a2a;
+    --custom-channel-members-bg:rgb(0, 14, 30);
+    --background-base-lower:rgb(0, 14, 30);
+    --background-base-lowest:rgb(0, 7, 16);
+}
+
+.themedBackground__74017 {
+    background: rgb(3, 29, 55);
 }
 
 .theme-light {
@@ -405,4 +472,18 @@ rect[mask="url(#svg-mask-status-offline)"], rect[fill="#82838b"] {
 /* fix modal colour */
 .container__8a031 {
     background: var(--background-primary) !important;
+}
+
+/* remove mic and headphone dropdown selectors */
+[aria-label="Input Options"] {
+    display: none !important;
+}
+
+[aria-label="Output Options"] {
+    display: none !important;
+}
+
+/* remove krisp noise suppression */
+[aria-label="Noise Suppression powered by Krisp"] {
+    display: none !important;
 }
