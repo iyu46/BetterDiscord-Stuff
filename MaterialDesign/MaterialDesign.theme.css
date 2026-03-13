@@ -115,7 +115,7 @@
     --background-accent: var(--12dp); /* 12dp */
     --background-tertiary: var(--00dp); /* 00dp */
     --background-secondary-alt: var(--06dp); /* 06dp */
-    --channeltextarea-background: var(--24dp); /* 24dp */
+    --channeltextarea-background: var(--12dp); /* 24dp */
     --background-floating: var(--24dp); /* 24dp */
     --background-modifier-selected: var(--06dp); /* 06dp */
     --background-modifier-hover: var(--02dp); /* 02dp */
@@ -197,14 +197,22 @@
 
 .theme-darker {
     --app-frame-background: linear-gradient(239.16deg, #062053 10.39%, #191fbb 26.87%, #13929a 48.31%, #218573 64.98%, #051a81 92.5%) !important;
-    --background-base-low: #071a2a;
+    --background-base-low: var(--02dp);
     --custom-channel-members-bg:rgb(0, 14, 30);
-    --background-base-lower:rgb(0, 14, 30);
+    --background-base-lower:var(--00dp);
     --background-base-lowest:rgb(0, 7, 16);
+    --background-surface-higher: var(--12dp);
+    --background-surface-high: var(--06dp);
+    --background-surface-highest: var(--24dp);
+
+}
+
+.channelTextArea_f75fb0 {
+    background: var(--16dp);
 }
 
 .themedBackground__74017 {
-    background: rgb(3, 29, 55);
+    background: var(--02dp);
 }
 
 .theme-light {
