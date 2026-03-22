@@ -199,6 +199,8 @@
     --app-frame-background: linear-gradient(239.16deg, #062053 10.39%, #191fbb 26.87%, #13929a 48.31%, #218573 64.98%, #051a81 92.5%) !important;
     --background-base-low: var(--02dp);
     --custom-channel-members-bg:rgb(0, 14, 30);
+    --user-profile-overlay-background: var(--02dp);
+    --card-background-default: var(--02dp);
     --background-base-lower:var(--00dp);
     --background-base-lowest:rgb(0, 7, 16);
     --background-surface-higher: var(--12dp);
